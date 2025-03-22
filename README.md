@@ -37,4 +37,4 @@ plt.show()
 ## Results
 
 ![Visualization of Top Skills For Data Nerds]
-("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\skill_demand_all_data_role.png")
+(3_Project\skill_demand_all_data_role.png")
