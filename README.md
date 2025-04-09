@@ -48,8 +48,30 @@ plt.show()
 - Data Enginners requires more specialized technical skills(AWS, Azure, Spark) compared to Data Analyst and Data Scientist who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
 
 
+## 2. How are in-demand skills trending for Data Analyst?
+
+### Visualize Data
+```python
+df_plot = df_DA_US_percent.iloc[:, :5]
+
+sns.lineplot(data= df_plot, dashes= False, palette='tab10')
+sns.set_theme(style='ticks')
+sns.despine()
+
+plt.title('Trending Top Skills for Data Analyst in the US')
+plt.ylabel('Likelihood in Job Posting')
+plt.xlabel('2023')
+plt.legend().remove()
 
 
+from matplotlib.ticker import PercentFormatter
+ax= plt.gca()
+ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+for i in range(5):
+    plt.text(11.2, df_plot.iloc[-1,i], df_plot.columns[i])
+
+```
 
 
 
