@@ -119,6 +119,46 @@ plt.show()
 
 
 
+# The Analysis
+
+##  Highest Paid & Most Demanded Skills for Data 
+
+```python
+fig, ax = plt.subplots(2, 1)
+
+sns.set_theme(style='ticks')
+
+
+sns.barplot(data=df_DA_top_pay, x= 'median', y=df_DA_top_pay.index, ax=ax[0],hue= 'median', palette= 'dark:b_r')
+ax[0].legend().remove()
+#df_DA_top_pay[::-1].plot(kind='barh', y='median', ax=ax[0], legend=False)
+
+ax[0].set_title('Top 10 Highest Paid Skills For Data Analyst')
+ax[0].set_ylabel('')
+ax[0].set_xlabel('')
+ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int (x/1000)}K'))
+
+
+
+
+
+sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1],hue= 'median', palette= 'light:b')
+ax[1].legend().remove()
+#df_DA_skills[::-1].plot(kind='barh', y='median', ax=ax[1], legend=False)
+
+ax[1].set_title('Top 10 Most Demand Skills For Data Analyst')
+ax[1].set_ylabel('')
+ax[1].set_xlabel('Median Salary(USD)')
+
+
+ax[1].set_xlim(ax[0].get_xlim())
+ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int (x/1000)}K'))
+
+
+fig.tight_layout()
+plt.show()
+```
+
 
 
 
