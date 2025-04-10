@@ -160,6 +160,11 @@ fig.tight_layout()
 plt.show()
 ```
 
+## Results
+
+![Visualization of Highest Paid & Most Demanded Skills for Data ]
+("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\images\Highest paid and most demanded skills.png")
+*Two separate bar graph visualizing the highest paid skills and most in demand skills for data analyst *
 
 
 
