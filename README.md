@@ -128,6 +128,7 @@ fig, ax = plt.subplots(2, 1)
 
 sns.set_theme(style='ticks')
 
+## Top 10 Hghest Paid Skills for Data Analysts
 
 sns.barplot(data=df_DA_top_pay, x= 'median', y=df_DA_top_pay.index, ax=ax[0],hue= 'median', palette= 'dark:b_r')
 ax[0].legend().remove()
@@ -140,7 +141,7 @@ ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int (x/1000)}
 
 
 
-
+## Top 10 Most In Demand Skills for Data Analysts
 
 sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, ax=ax[1],hue= 'median', palette= 'light:b')
 ax[1].legend().remove()
