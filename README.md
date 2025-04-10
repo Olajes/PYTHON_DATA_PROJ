@@ -76,7 +76,13 @@ for i in range(5):
 
 ![Visualization of Trending Top Skills for Data Analyst]
 ("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\Skill_Trend.png")
-*Bar graph visualizing the trending top skills data analyst in 2025.*
+*Bar graph visualizing the trending top skills data analyst in 2024.*
+
+### Insight
+- SQL remains the most consistency demanded skill throughout the year, although it shows a gradual decrease in demand.
+- Excel experienced a significant increase in demand starting around september, surpassing both Python anad Tableau by end the year.
+- Both python and Tableau show relatively satble demand throughtout the year with some Fluctions but remain essential skills for data anlayst.. PowerBI, while less demanded compared to the Tableau.
+
 
 
 
