@@ -84,11 +84,38 @@ for i in range(5):
 - Both python and Tableau show relatively satble demand throughtout the year with some Fluctions but remain essential skills for data anlayst.. PowerBI, while less demanded compared to the Tableau.
 
 
+## 2. How well do jobs and skills pay for Data Analysts?
+
+### Salary Analysis for Data Nerds
+```python
+sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order)
+
+sns.set_theme(style='ticks')
+#this is all the same
+
+plt.title('Salary Distribution in Dollars')
+plt.xlabel('Yearly Salary (USD)')
+plt.ylabel('')
+plt.xlim(0,600000)
+ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}k')
+plt.gca().xaxis.set_major_formatter(ticks_x)
+plt.show()
+
+```python
+
+## Results
+
+![Visualization of Salary Analysis for Data Nerds]
+("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\images\Salary_Analysis.png")
+*Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 
+### Insight
+- There is a significant variation in salary ranges across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $600k, indicting the high value placed on the advanced data skills and experienced in the Industry.
 
+- Senior Data Enginner and Senior Data Scientist roles show a considerable number of outliers on the higher end of the salary spectrum, suggesting the exceptional skills or circustances can lead to high pay in these roles. In Contrast, Data Analyst roles demonstrate more consisitency in salary, with fewer outliers.
 
-
+- The Median salaries increase with the seniority and specialization of the roles. Senior roles ( Senior Data Sientist, Senior Data Engineer) not only have higher median salaries but also larger differences in typical salaries, reflecting greater variance in compensation as responsiblities increase.
 
 
 
