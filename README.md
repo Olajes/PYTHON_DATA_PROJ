@@ -72,8 +72,11 @@ for i in range(5):
     plt.text(11.2, df_plot.iloc[-1,i], df_plot.columns[i])
 
 ```
+## Results
 
-
+![Visualization of Trending Top Skills for Data Analyst]
+("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\Skill_Trend.png")
+*Bar graph visualizing the trending top skills data analyst in 2025.*
 
 
 
