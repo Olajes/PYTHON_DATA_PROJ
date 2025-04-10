@@ -101,7 +101,7 @@ ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}k')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 
-```python
+```
 
 ## Results
 
