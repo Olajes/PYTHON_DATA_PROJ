@@ -169,7 +169,7 @@ plt.show()
 
 ### Insights:
 
-- The top graph shows specialized technical skills like 'dplyr`,`Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200k, suggesting that advanced technical proficiency can increase earning potential.
+- The top graph shows specialized technical skills like `dplyr`,`Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200k, suggesting that advanced technical proficiency can increase earning potential.
 
 - The bottom graph highlights that foundational skills like `Excel`, `PowerPoint`, and `SQL` are the most in Demand, even though they may not offer the highest salaries. This demonstares the importance of these core skills for emploYblility in data analysis roles.
 
