@@ -215,4 +215,23 @@ plt.tight_layout()
 plt.show()
 
 ```
+## Results
+
+![Visualization of Most Optimal Skills for Data Analyst ]
+("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\images\Most optimal Skills Data Analyst.png")
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analyst*
+
+
+
+### Insights:
+- The Scatter plot shows that most of the `programming` Skills (Coloured blue) tend to cluster at higher salary levels compared to other categories, indicting that programming expertise might offer greater salary benefits within the data analystics field.
+
+- Analyst tools (colored green), including Tableau and PowerBI, are prevalent in Job Postings and offer competitive salaries, showing that visualization and data analysis software are crucial for current data roles. This category not only has good salaries but is also versatile across different types of data tasks..
+
+- The database skills (Coloured Orange), such as Oracle and SQL Server, are associated with some of the highest salaries among data anlyst tools. This INDICATES a significant demand and valuation for data mangement and manipulations expertise in the industry.
+
+
+
+
+
 
