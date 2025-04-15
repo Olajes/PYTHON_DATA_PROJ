@@ -136,8 +136,7 @@ plt.show()
 
 ## Results
 
-![Visualization of Salary Analysis for Data Nerds]
-("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\images\Salary_Analysis.png")
+![Visualization of Salary Analysis for Data Nerds](https://github.com/Olajes/PYTHON_DATA_PROJ/blob/main/Salary_Analysis.png?raw=true)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 
