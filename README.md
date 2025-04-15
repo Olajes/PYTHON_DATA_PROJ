@@ -106,8 +106,7 @@ for i in range(5):
 ```
 ## Results
 
-![Visualization of Trending Top Skills for Data Analyst]
-(https://github.com/Olajes/PYTHON_DATA_PROJ/blob/main/Skill_Trend.png?raw=true)
+![Visualization of Trending Top Skills for Data Analyst](https://github.com/Olajes/PYTHON_DATA_PROJ/blob/main/Skill_Trend.png?raw=true)
 *Bar graph visualizing the trending top skills data analyst in 2024.*
 
 ### Insight
