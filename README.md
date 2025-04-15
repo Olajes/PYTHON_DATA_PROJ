@@ -71,7 +71,7 @@ plt.show()
 ## Results
 
 ![Visualization of Top Skills For Data Nerds]
-("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\skill_demand_all_data_role.png")
+(https://github.com/Olajes/PYTHON_DATA_PROJ/blob/065008ecf29d6b79e3402b03470e61708e7837b1/skill_demand_all_data_role.png))
 
 
 ## Insight
