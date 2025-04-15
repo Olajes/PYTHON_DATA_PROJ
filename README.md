@@ -107,7 +107,7 @@ for i in range(5):
 ## Results
 
 ![Visualization of Trending Top Skills for Data Analyst]
-("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\Skill_Trend.png")
+(https://github.com/Olajes/PYTHON_DATA_PROJ/blob/main/Skill_Trend.png?raw=true)
 *Bar graph visualizing the trending top skills data analyst in 2024.*
 
 ### Insight
