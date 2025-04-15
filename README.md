@@ -246,8 +246,7 @@ plt.show()
 ```
 ## Results
 
-![Visualization of Most Optimal Skills for Data Analyst ]
-("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\images\Most optimal Skills Data Analyst.png")
+![Visualization of Most Optimal Skills for Data Analyst ](https://github.com/Olajes/PYTHON_DATA_PROJ/blob/main/Most%20optimal%20Skills%20Data%20Analyst.png?raw=true))
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analyst*
 
 
