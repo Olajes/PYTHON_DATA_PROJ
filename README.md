@@ -192,8 +192,7 @@ plt.show()
 
 ## Results
 
-![Visualization of Highest Paid & Most Demanded Skills for Data ]
-("C:\Users\user\Desktop\STEVE HTML\PYTHON_DATA_PROJECT\3_Project\images\Highest paid and most demanded skills.png")
+![Visualization of Highest Paid & Most Demanded Skills for Data ](https://github.com/Olajes/PYTHON_DATA_PROJ/blob/main/Highest%20paid%20and%20most%20demanded%20skills.png?raw=true)
 *Two separate bar graph visualizing the highest paid skills and most in demand skills for data analyst*
 
 
